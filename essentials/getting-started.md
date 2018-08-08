@@ -7,6 +7,8 @@ Developing a new decentralized app? You're in the right place. Get started by in
 
 This is the recommended method for using Chakra.
 
+Requires at least Node.js v6 and npm v3.
+
 ```sh
 npm install @chakrajs/framework
 ```
@@ -15,6 +17,14 @@ If you are using `yarn` (recommended), use this instead.
 
 ```sh
 yarn add @chakrajs/framework
+```
+
+You can then import the npm package to your code using as follows, depending on your environment.
+
+```js
+const Chakra = require('@chakrajs/framework')
+// or
+import Chakra from '@chakrajs/framework'
 ```
 
 ## `<script>` include
@@ -34,3 +44,19 @@ Downloads can be found in the [GitHub Releases](https://github.com/cubefuse/chak
 <!-- Minified version -->
 <script src="https://unpkg.com/@chakrajs/framework/dist/index.min.js"></script>
 ```
+
+## Initializing Chakra app
+
+To include Chakra in your project:
+```js
+const chakra = new Chakra()
+chakra.plug(
+  // Add plugins you want to use as arguments here
+)
+chakra.start()
+```
+
+## Next steps
+
+- [Learn](/concepts/core-concepts.md) the concepts behind Chakra
+- [Create a new app](/essentials/creating-app.md) with Chakra Framework
