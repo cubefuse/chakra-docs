@@ -1,19 +1,43 @@
-# Introduction
+# Chakra Framework Documentation
 
-## Why?
+[![A Cubefuse Project](https://img.shields.io/badge/a_project_by-cubefuse-blue.svg?style=for-the-badge)](http://cubefuse.org)
+[![Readme Standard Style Compliant](https://img.shields.io/badge/readme-standard-green.svg?style=for-the-badge)](https://github.com/RichardLitt/standard-readme)
 
-With all the hype around Blockchain and decentralization, hundreds of new projects have popped up, offering different solutions to different problems. While not a bad thing, this has made the ecosystem very complex.  
+[![Documentation](https://img.shields.io/badge/Documentation-blue.svg?style=for-the-badge)](https://cubefuse.github.io/chakra-docs)
 
-Chakra makes it easy to develop a decentralized app, by providing a solid foundation. Chakra removes the complexities of Dapp development, providing a joyful developer experience. The modular architecture allows to integrate with new technologies and platforms in a hassle-free manner. 
+>  Official documentation for Chakra Framework
 
-## Features
+## Table of Contents
+- [Getting Started](#getting-started)
+- [Development Setup](#development-setup)
+- [Maintainers](#maintainers)
+- [Contribute](#contribute)
+- [License](#license)
 
-- Plugin-based modularity 
-- Component isolation through Publish-Subscribe architecture
-- Easy-to-use API
-- Works on browsers and Node.js
-- Out-of-the-box support for service workers
-- Lightweight (~30kb gzipped)
+## Getting Started
 
+The documentation can be found [here](https://cubefuse.github.io/chakra-docs).
 
-!> The documentation is still incomplete and would change drastically over the next few weeks. 
+## Development Setup
+
+The documentation is written using Markdown and built with Docsify.
+
+You can use `docsify-cli` or any other server to preview the site. 
+
+```sh
+npm i docsify-cli -g
+git clone https://github.com/cubefuse/chakra-docs.git
+docsify serve chakra-docs
+``` 
+
+## Maintainers
+
+[@mprasanjith](https://github.com/mprasanjith)
+
+## Contribute
+
+We welcome your pull requests and contributions.
+
+## License
+
+MIT © 2018 Cubefuse
