@@ -9,7 +9,7 @@ Chakra makes it easy to develop a decentralized app, by providing a solid founda
 ## Features
 
 - Plugin-based modularity 
-- Component isolation through Publish-Subscribe architecture
+- Module isolation through Publish-Subscribe architecture
 - Easy-to-use API
 - Works on browsers and Node.js
 - Out-of-the-box support for service workers

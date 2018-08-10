@@ -1,7 +1,6 @@
 # Getting Started
 
-Developing a new decentralized app? You're in the right place. Get started by including the Chakra in your application.
-
+Developing a new decentralized app? You're in the right place. Get started by including the Chakra library in your application.
 
 ## npm package
 
@@ -58,5 +57,5 @@ chakra.start()
 
 ## Next steps
 
-- [Learn](/concepts/core-concepts.md) the concepts behind Chakra
+- [Learn](/concepts/modularity.md) the concepts behind Chakra
 - [Create a new app](/essentials/creating-app.md) with Chakra Framework
