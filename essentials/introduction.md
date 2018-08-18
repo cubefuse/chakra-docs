@@ -15,5 +15,8 @@ Chakra makes it easy to develop a decentralized app, by providing a solid founda
 - Out-of-the-box support for service workers
 - Lightweight (~30kb gzipped)
 
-
 !> The documentation is still incomplete and would change drastically over the next few weeks. 
+
+## Next Steps
+
+Get started by [setting up a new project](/essentials/getting-started.md).

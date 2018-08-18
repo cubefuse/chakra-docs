@@ -44,18 +44,6 @@ Downloads can be found in the [GitHub Releases](https://github.com/cubefuse/chak
 <script src="https://unpkg.com/@chakrajs/framework/dist/index.min.js"></script>
 ```
 
-## Initializing Chakra app
-
-To include Chakra in your project:
-```js
-const chakra = new Chakra()
-chakra.plug(
-  // Add plugins you want to use as arguments here
-)
-chakra.start()
-```
-
 ## Next steps
 
-- [Learn](/concepts/modularity.md) the concepts behind Chakra
-- [Create a new app](/essentials/creating-app.md) with Chakra Framework
+- Let's [learn](/essentials/core-concepts.md) the concepts behind Chakra before diving into code.
