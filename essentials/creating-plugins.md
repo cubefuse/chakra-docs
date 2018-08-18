@@ -1,5 +1,14 @@
 # Creating Chakra Plugins
 
+Without plugins, a Chakra App would not be of any use. Plugins perform all the logic in a Chakra app.
+
+Chakra plugins can be categorized into three basic types.
+1. Plugins that perform application logic.
+2. Plugins that wrap other third-party libraries and act as adapters.
+3. Plugins that co-ordinate messages between other plugins.
+
+Lets discuss these plugin types in-detail later.
+
 ## npm package
 
 First of all, install the `chakra-plugin-interface` npm package.

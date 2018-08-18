@@ -13,7 +13,7 @@ const chakra = new Chakra({
 });
 ```
 
-3. To add plugins to Chakra, use the `plug` function and pass a list of objects that implement the `Chakra.Plugin` interface as arguments.
+3. To add plugins to Chakra, use the `plug` function and pass a list of plugins as arguments.
 ```js
 // Below, both SomePlugin and SomeAnotherPlugin are Chakra Plugins.
 const plugin1 = new SomePlugin();
